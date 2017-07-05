@@ -221,6 +221,6 @@ if __name__ == "__main__":
         fo.write ("Number of anomalies: "+str(len(anomalous_graphs))+' '+'\n')
         for a in anomalous_graphs:
             fo.write(str(a)+' '+'\n')
-    print time.time() - start_time, "seconds"
-    print "u_limit",u_limit,"\n"
-    print anomalous_graphs, "\n"
+    #print time.time() - start_time, "seconds"
+    #print "u_limit",u_limit,"\n"
+    #print anomalous_graphs, "\n"
